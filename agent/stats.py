@@ -10,7 +10,7 @@ def mean(values):
     """Arithmetic mean, rounded to two places."""
     if not values:
         raise ValueError("mean of an empty list")
-    return round(sum(values) / len(values), 3)
+    return round(sum(values) / len(values), 1)
 
 
 def median(values):
